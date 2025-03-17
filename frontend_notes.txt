@@ -1,0 +1,37 @@
+Bootstrap, JS and react notes
+Day: Monday  Date: 17-3-2025
+
+STEPS TO CREATE NEW GIT REPO:
+1- Login to github
+2- Click on + on top right and select new repository
+3- Enter the new repo name
+4- Give the description
+5- Make the repo public(default scope)
+6- Select the checkbox and add readme file
+7- Select Create repo button
+
+Command to download any public repo:
+$ git clone https://github.com/Chandana-Narayan/pfile_fe_mar25
+The above command copies(clones) the git repo from the server(cloud) to the local machine.
+Thus, we get a folder of the repo
+
+$ git status
+The above command is used to check the status of the remote repo with respect to the local repo
+
+$ git pull origin <branch name>
+$ git pull origin main
+The above command pulls(downloads) the files from the server to the local. Only the files which are not updated are pulled 
+
+STEPS TO CREATE PERSONAL ACCESS TOKEN(PAT):
+1- On the top right most corner click on profile icon
+2- In the list of options, click on Settings
+3- In the new window, scroll down a bit and click on developer's settings
+4- On the left top corner, click on personal access token and select tokens classic
+5- In the new window, click the button generate token and select tokens classic
+6- In the new window, add the relevant note 
+7- Click expiry and select no expiry
+8- Click next
+9- Select the checkbox repo
+10- Scroll down fully and click generate token
+11- Copy the token and mail it to yourself
+(Save the PAT nowhere else)
